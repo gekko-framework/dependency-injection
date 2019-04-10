@@ -1,0 +1,21 @@
+{
+    "name": "gekko/dependency-injection",
+    "version": "0.1.0",
+    "description": "The Gekko Framework dependency injection package.",
+    "license": "MIT",
+    "homepage": "https://github.com/gekko-framework",
+    "authors": [
+        {
+            "name": "Leonardo Brugnara",
+            "email": "lfbrugnara@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gekko\\": "src/"
+        }
+    }
+}
